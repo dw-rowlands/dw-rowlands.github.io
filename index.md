@@ -17,7 +17,7 @@ This site is a portfolio of projects I've created for [GES 687, "Advanced Applic
 
 ------
 
-## Sample Project
+### [Map of Census-Designated Places in the DC Area](SampleProject/CDPs)
 
 ![left-aligned-image](DWRowlands-Headshot.jpg){: .align-left width="120px"}
 My name is DW Rowlands.  I am a visiting lecturer in chemistry at the [University of Maryland, Baltimore County](https://www.umbc.edu) and I write about urban planning, transportation, and local history topics for [Greater Greater Washington](https://ggwash.org/drowlands).
