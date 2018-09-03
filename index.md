@@ -2,7 +2,8 @@
 .align-left {
   display: block;
   margin-left: auto;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
   float: left;
 }
 </style>
