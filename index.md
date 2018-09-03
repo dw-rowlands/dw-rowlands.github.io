@@ -1,3 +1,12 @@
+<style type="text/css">
+.image-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float: right;
+}
+</style>
+
 # Welcome to my GES 687 Portfolio
 
 ![left-aligned-image](DWRowlands-Headshot.jpg){: .align-left}
