@@ -1,7 +1,7 @@
 # Welcome to my GES 687 Portfolio
 
 
-| ![](DWRowlands-Headshot.jpg | =80x80)       | Are           | Cool  |
+| ![](DWRowlands-Headshot.jpg) | Are           | Cool  |
 | -------------                               |:-------------:| -----:|
 | col 3 is                                    | right-aligned | $1600 |
 | col 2 is                                    | centered      |   $12 |
