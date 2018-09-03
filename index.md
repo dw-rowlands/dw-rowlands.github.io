@@ -17,7 +17,7 @@ This site is a portfolio of projects I've created for [GES 687, "Advanced Applic
 
 ------
 
-### [Map of Census-Designated Places in the DC Area](SampleProject/CDPs)
+#### [Census-Designated Places in the DC Area](SampleProject/CDPs)
 
 ![Map of Census-Designated Places](SampleProject/CDP-map.gif){: .align-left width="120px"}
 I made this map of [Census-designated places](https://en.wikipedia.org/wiki/Census-designated_place) and municipalities in the DC area for [a Greater Greater Washington article](https://ggwash.org/view/63487/where-you-live-is-important-but-around-here-its-not-that-easy-to-define).
