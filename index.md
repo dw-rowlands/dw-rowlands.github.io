@@ -1,8 +1,8 @@
 <style type="text/css">
 .align-left {
   display: block;
-  margin-left: 20px;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 20px;
   float: left;
 }
 </style>
