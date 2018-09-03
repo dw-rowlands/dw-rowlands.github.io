@@ -1,1 +1,2 @@
-This is a test
+# Header 1
+This is a test.
