@@ -17,7 +17,10 @@ This site is a portfolio of projects I've created for [GES 687, "Advanced Applic
 
 ------
 
-This text is not aligned. Test.
+## Sample Project
+
+![left-aligned-image](DWRowlands-Headshot.jpg){: .align-left width="120px"}
+My name is DW Rowlands.  I am a visiting lecturer in chemistry at the [University of Maryland, Baltimore County](https://www.umbc.edu) and I write about urban planning, transportation, and local history topics for [Greater Greater Washington](https://ggwash.org/drowlands).
 
 
 
