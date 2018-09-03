@@ -4,6 +4,7 @@
   margin-left: auto;
   margin-right: auto;
   float: right;
+  width: 80px;
 }
 </style>
 
