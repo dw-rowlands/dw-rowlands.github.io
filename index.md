@@ -15,7 +15,7 @@ My name is DW Rowlands.  I am a visiting lecturer in chemistry at the [Universit
 
 ------
 
-This text is not aligned.  Test.
+This text is not aligned.
 
 
 
