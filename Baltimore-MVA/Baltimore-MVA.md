@@ -7,7 +7,7 @@ title: Baltimore Housing Market Typology
 
 This map was produced for Lab 1 in GES 687 during the Fall 2018 semester at UMBC.
 
-### Resources Used
+## Resources Used
 
 This map was produced in QGIS 3.2.2-Bonn.  The data was provided by Prof. Mahmoudi in the form of a shapefile of Census [block groups](https://en.wikipedia.org/wiki/Census_block_group) in the City of Baltimore coded with the [Baltimore Housing Market Typology classifications from 2014](https://data.baltimorecity.gov/Neighborhoods/2014-Housing-Market-Typology/bd6x-nxgg/data_), along with a feature containing the boundaries of surface water within the city.
 
@@ -28,7 +28,7 @@ The background street grid for the Baltimore area is shown via [Stamen](https://
 Unfortunately, the Stamen Toner background is non-optimal, as it uses shading to display some features, which can interfere with reading the color-coding on the map.  The [Stamen Toner Hybrid]() map seems like it would work better for this purpose, since it lacks the shading, but it does not seem to be available online as XYZ Tileing.
 
 
-### About the Baltimore Housing Market Typology
+## About the Baltimore Housing Market Typology
 
 Baltimore's housing typology is [a project](https://planning.baltimorecity.gov/maps-data/housing-market-typology) of the Baltimore City Department of Planning, the city Department of Housing & Community Development, and the city Reinvestment Fund intended "to assist the City in its efforts to strategically match available public resources to neighborhood housing market conditions."
 
