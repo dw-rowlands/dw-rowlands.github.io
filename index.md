@@ -26,5 +26,5 @@ I made this map of [Census-designated places](https://en.wikipedia.org/wiki/Cens
 
 #### [Baltimore Housing Market Typology](Baltimore-MVA/Baltimore-MVA.html)
 
-![Map of Baltimore Housing Typology](Baltimore-MVA/Baltimore-MVA.html){: .align-left width="120px"}
+![Map of Baltimore Housing Typology](Baltimore-MVA/Baltimore-MVA.png){: .align-left width="120px"}
 This map of [Baltimore's Housing Market Typology](https://planning.baltimorecity.gov/maps-data/housing-market-typology) was produced for Lab 1 in GES 687 during the Fall 2018 semester at UMBC.
