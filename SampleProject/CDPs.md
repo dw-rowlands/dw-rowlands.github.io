@@ -1,4 +1,4 @@
-## [Census-Designated Places in the DC Area](SampleProject/CDPs)
+# [Census-Designated Places in the DC Area](SampleProject/CDPs)
 
 ![](CDP-map.gif)
 [Full-sized Version](CDP-map.gif)
