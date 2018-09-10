@@ -1,5 +1,5 @@
 ---
-title: DC-Area CDPs
+title: DC-area Place Names
 ---
 
 ![](CDP-map.gif)
