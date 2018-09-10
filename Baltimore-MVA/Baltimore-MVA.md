@@ -2,10 +2,10 @@
 title: Baltimore's Housing Market
 ---
 
-![](Baltimore-MVA.png)
+![Map of Baltimore's Housing Market Typology](Baltimore-MVA.png)
 [Full-sized Version](Baltimore-MVA.png)
 
-This map was produced for Lab 1 in GES 687 during the Fall 2018 semester at UMBC.
+This map of [Baltimore's Housing Market Typology](https://planning.baltimorecity.gov/maps-data/housing-market-typology) was produced for Lab 1 in GES 687 during the Fall 2018 semester at UMBC.
 
 ## Resources Used
 
