@@ -17,15 +17,14 @@ This site is a portfolio of projects I've created for [GES 687, "Advanced Applic
 
 ------
 
-#### [Census-Designated Places in the DC Area](SampleProject/CDPs)
+#### [DC-area Place Names](SampleProject/CDPs.html)
 
 ![Map of Census-Designated Places](SampleProject/CDP-map.gif){: .align-left width="120px"}
-I made this map of [Census-designated places](https://en.wikipedia.org/wiki/Census-designated_place) and municipalities in the DC area for [a Greater Greater Washington article](https://ggwash.org/view/63487/where-you-live-is-important-but-around-here-its-not-that-easy-to-define).
-
-
+I made this map of [Census-designated places](https://en.wikipedia.org/wiki/Census-designated_place) and municipalities in the DC area for [a Greater Greater Washington article](https://ggwash.org/view/63487/where-you-live-is-important-but-around-here-its-not-that-easy-to-define) in June 2017.
 
 ------
 
+#### [Baltimore Housing Market Typology](Baltimore-MVA/Baltimore-MVA.html)
 
-
-
+![Map of Baltimore Housing Typology](Baltimore-MVA/Baltimore-MVA.html){: .align-left width="120px"}
+This map of [Baltimore's Housing Market Typology](https://planning.baltimorecity.gov/maps-data/housing-market-typology) was produced for Lab 1 in GES 687 during the Fall 2018 semester at UMBC.
