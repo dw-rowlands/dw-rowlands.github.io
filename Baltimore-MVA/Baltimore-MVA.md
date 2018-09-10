@@ -1,6 +1,13 @@
+
+
+## Map of Baltimore Housing Market Typology Data{: style="text-align: center;"}
+
+![](Baltimore-MVA.png)
+[Full-sized Version](Baltimore-MVA.png)
+
 ### Resources Used
 
-This map was produced in QGIS 3.2.2-Bonn.  The data was provided by Prof. Mahmoudi in the form of a shapefile of Census [block groups](https://en.wikipedia.org/wiki/Census_block_group) in the City of Baltimore coded with the [Baltimore Housing Typology classifications from 2014](https://data.baltimorecity.gov/Neighborhoods/2014-Housing-Market-Typology/bd6x-nxgg/data_), along with a feature containing the boundaries of surface water within the city.
+This map was produced in QGIS 3.2.2-Bonn.  The data was provided by Prof. Mahmoudi in the form of a shapefile of Census [block groups](https://en.wikipedia.org/wiki/Census_block_group) in the City of Baltimore coded with the [Baltimore Housing Market Typology classifications from 2014](https://data.baltimorecity.gov/Neighborhoods/2014-Housing-Market-Typology/bd6x-nxgg/data_), along with a feature containing the boundaries of surface water within the city.
 
 Since standard Census block groups include water as well as land area, the surface water feature overlapped a number of the Census tracts.
 
