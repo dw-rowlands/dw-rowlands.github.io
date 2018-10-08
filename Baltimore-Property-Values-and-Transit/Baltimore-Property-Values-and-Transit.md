@@ -1,5 +1,5 @@
 ---
-Title: Property Values and Transit in Baltimore
+title: Property Values and Transit in Baltimore
 ---
 
 For my first GES 687 project, I decided to look at the relationship between the value of real property in Baltimore City and distance from frequent transit service.
