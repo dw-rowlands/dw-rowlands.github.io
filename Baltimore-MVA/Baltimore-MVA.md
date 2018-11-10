@@ -1,5 +1,5 @@
 ---
-title: Baltimore's Housing Market
+title: Baltimore's Housing Market Typology
 ---
 
 ![Map of Baltimore's Housing Market Typology](Baltimore-MVA.png)
