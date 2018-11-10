@@ -122,7 +122,7 @@ While the movement of the non-African-American population centers to the northwe
 
 To better quantify this information, I calculated and plotted the median distance members of each racial group within the study area lived from the racial group's center of mass.
 
-![Plots of median distances residents of different races live from their centers of population.](Median_Distance_Over_Time.gif)
+![Plots of median distances residents of different races live from their centers of population.](Distribution_1980.gif)
 [Plot of the median distance a resident of each race lived from their race's population center](Median_Distance_Over_Time.gif) in [1970](Distribution_1970.gif), [1980](Distribution_1980.gif), [1990](Distribution_1990.gif), [2000](Distribution_2000.gif), [2010](Distribution_2010.gif), and [2016](Distribution_2016.gif).
 
 As expected, the African-American community was the most tightly clustered: in 1970, half of African-Americans in the study area lived within 4 miles of the African-American population center.  This increased steadily at a rate of just over a mile a decade for forty years, leveling off at 9 miles in 2010 and 2016.  Even in 2016, though, the African-American population had a lower median distance than the white population did when it was most clustered, in 1970.
