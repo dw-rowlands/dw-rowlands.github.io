@@ -17,6 +17,13 @@ This site is a portfolio of projects I've created for [GES 687, "Advanced Applic
 
 ------
 
+#### [Population Distribution and Race](DC_Pop_Dist/DC_Pop_Dist.html)
+
+![Map of population distribution, color-coded by race, for the DC metro area, 1970-2016](DC_Pop_Dist/Dotmaps-Large.gif){: .align-left width="240px"}
+Map of the population distribution in the DC metro area, 1970-2016. One dot per ten residents, colored blue for whites, green for African-Americans, orange for Latinx, and red for Asian-Americans (and others). The large dots are the center-of-population for each racial group within the study region.  It was produced for Project 2 in GES 687 during the Fall 2018 semester at UMBC.
+
+------
+
 #### [Property Values and Transit](Baltimore-Property-Values-and-Transit/Baltimore-Property-Values-and-Transit.html)
 
 ![3D map of of Baltimore City showing distance from transit as elevation and property values by color](Baltimore-Property-Values-and-Transit/3D-Map.png){: .align-left width="240px"}
