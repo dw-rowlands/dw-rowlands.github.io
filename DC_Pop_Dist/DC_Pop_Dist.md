@@ -1,4 +1,4 @@
-# Population Distribution and Race
+## Population Distribution and Race
 
 For my second GES 687 project, I decided to look at how population distribution and density have changed in the Washington, DC metro area over the past half-century.
 
@@ -17,12 +17,12 @@ Over the forty-year period shown in the density maps, inner suburban desnities d
 In addition, to study the differences in population distribution between different racial groups, I used the same data plus population figures by Census tract from the 2016 [American Community Survey](https://www.census.gov/programs-surveys/acs), to map the population density of Census tracts and the distribution of different racial and ethnic groups over forty-six years.
 
 
-## Choosing a Study Region
+### Choosing a Study Region
 
 Choosing the region to be analyzed for this project was somewhat difficult.  A naive solution would be to use the Census's current definition of the [Washington-Arlington-Alexandria Metropolitan Statistical Area](https://en.wikipedia.org/wiki/Washington_metropolitan_area).  However, this is not a viable option due to the constraints of available data and of the asymmetrically-shaped MSA.
 
 
-### Constraining Factors
+#### Constraining Factors
 
 First, the Washington, DC MSA is very asymmetrically shaped, because its northeastern border is constrained by the Baltimore MSA, which it borders less than twenty miles from downtown DC, while it extends over fifty miles to the south and west.
 
@@ -31,7 +31,7 @@ Assuming that DC's commuter zone stops at the Patuxent River merely because that
 Second, and perhaps even more constraining, Census tracts were not defined for all counties in the US until the 2000 Census.  The reason I decided to start this study in 1970 is that that was the first year that suburban counties in the DC area, besides Arlington County, VA and the City of Alexandria, VA were divided into Census tracts.  However, Charles County, MD was not divided into Census tracts until 1980, though it comes relatively close to the southern border of DC.
 
 
-### Final Choice of Region
+#### Final Choice of Region
 
 In order to have a consistent region for all years, I decided to limit myself to counties that had already been divided into Census tracts in 1970.  Within the Washington, DC MSA, this gave me:
 
@@ -53,12 +53,12 @@ In order to have a consistent region for all years, I decided to limit myself to
 In addition to these jurisdictions, I decided to also include Howard and Anne Arundel Counties in Maryland, because [a significant fraction (roughly a quarter) of their employed residents work in the DC metro area DC](https://www.dcpolicycenter.org/publications/how-many-people-commute-between-baltimore-and-d-c/), and because they are as close to downtown DC as some of the Virginia jurisdictions included.
 
 
-## Mapping Population Distribution by Race
+### Mapping Population Distribution by Race
 
 The first step toward understanding how the DC metro area's population distribution of different races had changed during the study period was to map the distribution of residents of different races.  Since the US Census has been inconsistent in how it reports data on race and ethnicity (Latinx / non-Latinx status) over the study period, I developed a consistent classification to use for my maps.  I then made dot maps of the population distribution in each year studied, with dots color-coded by race, to help visualize this information.
 
 
-### Classifying Census Respondents' Race
+#### Classifying Census Respondents' Race
 
 For the purposes of this study, I decided to divide the population of the study area into four racial groups: non-Latinx white, non-Latinx African-American, Latinx of any race, and non-Latinx Asian/Other.  The decision to group non-Latinx Census respondents who identified as Asian-American, Native American, Pacific Islander, "Other Race," or more than one race together was made for two reasons:
 
@@ -67,7 +67,7 @@ First, the study area population is largely white, African-American, and Latinx,
 Since data on the populations of Latinx and non-Latinx Americans by race was not available from the 1970 Decennial Census, though a total Latinx population was, I used the total African-American and Asian/Other populations for 1970.  I approximated the non-Latinx white population in 1970 as the total white population minus the total Latinx population, since in later years, the vast majority of the study region's Latinx population seems to have identified as white.  Since the total Latinx population in the study area was quite small in 1970, this should not seriously interfere with the analysis.
 
 
-### Dot Maps of Population Distribution by Race
+#### Dot Maps of Population Distribution by Race
 
 To visualize the distribution of population by race over time in the study region, I made dot maps of the population, color-coded by race.  Dots were randomly located within each Census tract, with one dot for every ten residents.  Using one dot per ten residents rather than one dot per resident prevented the densest parts of the region from exceeding a maximum dot density at which point additional dots would necessarily cover the dots behind them.
 
@@ -80,7 +80,7 @@ A view of the area inside the Beltway—where most residents were still concentr
 
 Over the course of the study period, the African-American population in the District becomes less dense, particularly northwest of the Anacostia River, while Prince George's County south of US-50 becomes nearly entirely African-American, and African-Americans become substantially more common in northern Prince George's and eastern Montgomery Counties.
 
-![Map of population distribution in the DC metro area over the past half-century.]](Dotmaps-Large.gif)
+![Map of population distribution in the DC metro area over the past half-century.](Dotmaps-Large.gif)
 [Map of the population distribution in the DC metro area, 1970-2016.  One dot per ten residents, colored blue for whites, green for African-Americans, orange for Latinx, and red for Asian-Americans (and others).  The large dots are the center-of-population for each racial group within the study region.](Dotmaps-Large.gif)
 
 Other racial minority communities also develop over the course of the study period: in 1990, substantial Latinx populations become visible in Columbia Heights in the District and Langley Park in Maryland.  It is notable that the Columbia Heights area transitions from African-American to Latinx, while the Langley Park area appears to have been entirely white before transitioning to Latinx.  Other Latinx populations develop over the course of the 1990's and 2000's, and although Latinx residents still appear to mostly be clustered in ethnic enclaves, these are found nearly everywhere in the suburbs except for Prince George's County south of US-50 and the rich, low-density areas along the Potomac River northwest of the District.
@@ -88,12 +88,12 @@ Other racial minority communities also develop over the course of the study peri
 Identifiable Asian-American enclaves start to appear in Fairfax County in the 1990 Census, and by the 2000 Census, they are found throughout Fairfax and Montgomery Counties and in parts of Arlington.  Interestingly, a significant number of Asian-American residents appear in downtown DC in 2000.  The only other group to increase its presence in the District in the 2000's and 2010's is whites, who begin to expand into Capitol Hill starting with the 1990 Census and into the Mid-City in the 2000 and 2016 data.
 
 
-## Analyzing Changes in Racial Population Distribution
+### Analyzing Changes in Racial Population Distribution
 
 A visual analysis of population dot maps can only tell us so much about the distributions of different populations, and risks introduction of bias due to biases in human visual perception.  To supplement this analysis, I also performed a relatively simple mathematical analysis of the population data, determining the movement of the centers-of-population for each race and median distance of residents of each race from their race's center of population.
 
 
-### Movement of Racial Centers-of-Population
+#### Movement of Racial Centers-of-Population
 
 The population centers were calculated for each racial group in each year by finding the center of mass for each race's distribution of random dots.  While this does introduce a potential element of randomness, the number of dots in each Census tract is quite large, making the exact location of individual dots unlikely to substantially bias the results.
 
@@ -114,7 +114,7 @@ After 2000, the movements of these population centers changed: rather than conti
 The Asian-American population center, however, continued on the same trajectory and reached the vicinity of the American Legion Bridge by 2010.  It then also moved slightly to the east by 2016.
 
 
-### Degrees of Suburbanization by Race
+#### Degrees of Suburbanization by Race
 
 While the movement of the non-African-American population centers to the northwestern suburbs demonstrates that a majority of these groups' population is now suburban, it doesn't give a clear picture of how concentrated the populations are.
 
@@ -129,7 +129,7 @@ The Latinx and Asian-American populations' median distances from their populatio
 
 Meanwhile, the white population suburbanized even more rapidly, with the median distance from the population center increasing from 10 miles in 1970 to 16 miles in 2000: a rate of two miles a year.  However, after 2000, this distance actually decreased somewhat, reaching 15 miles by 2016.
 
-## List of Data Sources
+### List of Data Sources
 
 - Population data and shapefiles for the 1970-2010 Decennial Censuses were obtained from the [IPUMS National Historical Geographic Information System at the University of Minnesota](https://nhgis.org/).
 - Population data for the 2016 American Community Survey was taken from the US Census's [American Fact Finder](https://factfinder.census.gov/faces/nav/jsf/pages/index.xhtml?).
