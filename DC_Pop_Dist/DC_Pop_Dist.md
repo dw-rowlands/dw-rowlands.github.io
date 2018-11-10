@@ -1,4 +1,6 @@
-## Population Distribution and Race
+---
+title: Population Distribution and Race
+--- 
 
 For my second GES 687 project, I decided to look at how population distribution and density have changed in the Washington, DC metro area over the past half-century.
 
