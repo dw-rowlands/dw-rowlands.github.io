@@ -73,7 +73,7 @@ Since data on the populations of Latinx and non-Latinx Americans by race was not
 
 To visualize the distribution of population by race over time in the study region, I made dot maps of the population, color-coded by race.  Dots were randomly located within each Census tract, with one dot for every ten residents.  Using one dot per ten residents rather than one dot per resident prevented the densest parts of the region from exceeding a maximum dot density at which point additional dots would necessarily cover the dots behind them.
 
-Maps were created for [1970](Dotmaps-Large-1970.pdf), [1980](Dotmaps-Large-1980.pdf), [1990](Dotmaps-Large-1990.pdf), [2000](Dotmaps-Large-2000.pdf), [2010](Dotmaps-Large-2010.pdf), and [2016](Dotmaps-Large-2016.pdf), and a color code of blue for whites, green for African-Americans, orange for Latinx, and red for Asian-Americans (and others) was used.
+Maps were created for 1970-2016 and a color code of blue for whites, green for African-Americans, orange for Latinx, and red for Asian-Americans (and others) was used.
 
 ![Map of population distribution inside the DC Beltway over the past half-century.](Dotmaps-Beltway.gif)
 [Map of the population distribution inside the DC Beltway, 1970-2016.  One dot per ten residents, colored blue for whites, green for African-Americans, orange for Latinx, and red for Asian-Americans (and others).  The large dots are the center-of-population for each racial group within the study region.](Dotmaps-Beltway.gif)
