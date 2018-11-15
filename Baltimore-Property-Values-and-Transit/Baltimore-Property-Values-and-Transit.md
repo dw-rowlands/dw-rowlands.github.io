@@ -38,7 +38,7 @@ As several spellings and formattings were used in the names of publically owned 
 
 To map distance from frequent transit, Baltimore was divided into a 400-m-by-400-m hex grid and the distance from the centroid of each hex to the nearest light rail or subway station or bus stop served by CityLink buses (which have 24-7 service and headways not greater than every 15 minutes during the day on weekdays) was measured.
 
-![Map of distance from frequent transit in Baltimore City](DistanceToTransit.png)
+![Map of distance from frequent transit in Baltimore City](DistanceToTransit_Fixed.png)
 [Distance to nearest transit stop with frequent service (defined as light rail, subway, or "CityLink" bus) in Baltimore City.  Hexes form a roughly quarter-mile grid.](DistanceToTransit.pdf)
 
 The locations of rail stations and bus stops were taken from shapefiles provided by the [Maryland Open Data Portal](https://data.maryland.gov).  (Specific links can be found below under Data Sources.)
