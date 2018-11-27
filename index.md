@@ -15,6 +15,14 @@ My name is DW Rowlands.  I am a visiting lecturer in chemistry at the [Universit
 
 This site is a portfolio of projects I've created for [GES 687, "Advanced Applications of Geographic Information Systems,"](http://catalog.umbc.edu/preview_course_nopop.php?catoid=17&coid=51285) at UMBC. 
 
+
+------
+
+#### [Cluster Analysis Lab](ClusterAnalysisLab/ClusterAnalysisLab.html)
+
+![bivariate local Moran's I analysis of race and gender in Baltimore](ClusterAnalysisLab/Bivariate_pF_pAA.JPG){: .align-left width="240px"}
+A bivariate local Moran's I spatial correlation analysis map showing the high correlation between the fraction of African-American residents in neighborhoods and the fraction of female residents (a proxy for rates of incarceration of residents) in those same neighborhoods.  It was produced for Lab 6 in GES 687 during the Fall 2018 semester at UMBC.
+
 ------
 
 #### [Population Distribution and Race](DC_Pop_Dist/DC_Pop_Dist.html)
