@@ -14,7 +14,7 @@ The first step of the tutorial involved a univariate local Moran's I cluster ana
 
 To look for correlations with related statistics, four maps were made, showing the clusters in regions of France with high or low values of both number of clergy and literacy, which are plausibly related.
 
-![](../maps/Guerry_1.JPG)
+![](Guerry_1.JPG)
 A four-by-four grid showing the correlation of clusters of high and low levels of donations to the poor in regions of France with different levels of literacy and concentrations of clergy.
 
 
@@ -23,7 +23,7 @@ A four-by-four grid showing the correlation of clusters of high and low levels o
 
 Next, we performed a univariate local Geary cluster analysis.  This method found slightly different, but similarly located, clusters.  However, while it also identified local outliers, it could not distinguish between local maxima and local minima.
 
-![](../maps/Guerry_2.JPG)
+![](Guerry_2.JPG)
 A pair of maps, produced with a univariate local Geary cluster analysis, showing clusters with high and low levels of donations to the poor at p < 0.05 significance with 99,999 permuations, and showing the significance levels for different regions.
 
 
@@ -32,7 +32,7 @@ A pair of maps, produced with a univariate local Geary cluster analysis, showing
 
 Finally, we produced a cluster map using a local Gi analysis.  Here, we chose a significantly tighter significance bound, and found that only one cluster, in the southeast of France, stood up to this analysis.
 
-![](../maps/Guerry_3.JPG)
+![](Guerry_3.JPG)
 A local Gi cluster map, calculated at the Bonferroni significance bound for 99% significance, p < 0.000588235.  Only one cluster is found.
 
 
@@ -48,14 +48,14 @@ While a wide variety of statistics are available in the Vital Signs dataset, I d
 
 Baltimore, like most American cities, has significant racial segregation correlated with poverty.  Since the neighborhoods used for the Vital Signs data have quite variable sizes and populations, it seemed more reasonably to perform my analyses on the percentage of African-American residents than the total number of residents.
 
-![Percent African-American in Baltimore](../maps/Percent_African-American.png)
+![Percent African-American in Baltimore](Percent_African-American.png)
 A map of the percentage of residents who are African-American in Baltimore neighborhoods.  The city as a whole is roughly 60% African-American.
 
 Baltimore's African-American population is largely concentrated in a "butterfly" shape, with large areas with populations that are over 80% African-American west and northeasteast of downtown.  The city's white population, meanwhile, forms an "L" shape and is largely found in two corridors running north and east from downtown.  The far southern part of the city is largely industrial and has quite low population densities.
 
 Racial segregation in American cities is often related to economic segregation.  There are several causes for this trend, including a variety of government policies that have consistently prevented people of color, and particularly African-Americans from having access to more desirable housing and from being able to achieve wealth and income levels comparable to white Americans.
 
-![Percent Households in Poverty in Baltimore](../maps/Percent_Households_Poverty.png)
+![Percent Households in Poverty in Baltimore](Percent_Households_Poverty.png)
 A map of the percentage of households that are experiencing poverty in Baltimore neighborhoods.  City-wide, roughly 20% of households experience poverty.
 
 Given the frequent correlation between race and poverty in American cities, I was not surprised to see that the percentage of households in poverty seemed to be higher in majority African-American areas of the city.  It would have been interesting to compare median income statistics as well, but the Vital Signs dataset had limited metadata, making it difficult or impossible to extract this information from it.
@@ -64,7 +64,7 @@ An additional statistic that seemed worth analyzing is the gender breakdown of B
 
 In urban areas, however, the most common source of gender disparities is the very high rate of incarceration of young men of color in many low-income neighborhoods.  This sort of disparity is often both an indicator of areas with relatively high crime rates, and a product of the carceral state that can itself produce additional social problems in these neighborhoods.
 
-![Percent Female in Baltimore](../maps/Percent_Female.png)
+![Percent Female in Baltimore](Percent_Female.png)
 A map of the percentage of residents who are female in Baltimore neighborhoods.  City-wide, roughly 53% of the population is female.
 
 Although Baltimore as a whole is 53% female—still well above the national average—its individual neighborhoods vary from 47% to 59% female.  Unsurprisingly, the highest percentages of female residents are generally found in poorer and more heavily African-American neigbhorhoods.
@@ -85,19 +85,19 @@ The first stage of my spatial autocorrelation analysis of Baltimore neighborhood
 
 For each variable, I performed my analysis for p < 0.05 and 99,999 permuations, the maximum number possible using GeoDa.
 
-![](../maps/Univariate_pAA.JPG)
+![](Univariate_pAA.JPG)
 Univate local Moran's I analysis of the percentage of African-American residents in Baltimore neighborhoods.  Red indicates neighborhoods at the core of a cluster with a high percentage of African-American residents.  Blue indicates neighborhoods at the core of clusters with a low percentage of African-American residents.
 
 The local spatial autocorrelation analysis of the percentage of African-American residents in Baltimore neigbhorhoods largely confirms what appeared true from a visual analysis.  Both sides of the "White L" are visible.  However, only the left side of the "Black Butterfly" appears.  I'm unclear on why the cluster of African-Americans northeast of downtown is absent, though it may be due to the relatively low number of neigbhorhoods involved and the fact that they are not well-connected.
 
-![](../maps/Univariate_pHHPov.JPG)
+![](Univariate_pHHPov.JPG)
 Univate local Moran's I analysis of the percentage of households experiencing poverty in Baltimore neighborhoods.  Dark red indicates neighborhoods at the core of clusters with a high percentage households experiencing poverty.  Dark blue indicates neighborhoods at the core of clusters with a low percentage households experiencing poverty.  Light blue indicates neighborhoods with a significantly lower percentage of residents experiencing poverty than their neighbors and light red indicates neighborhoods with a significantly higher percentage of residents experiencing poverty than their neighbors.
 
 The results of the local spatial autocorrelation analysis of the percentage of households in poverty in Baltimore neighborhoods is somewhat more surprising.  It shows two clusters of high-poverty areas to the east and west of downtown, but they are smaller than I expected, and only one low-poverty cluster, to the far northeast, appears.  Meanwhile, downtown itself, and the area directly north of the western high-poverty cluster, appear as areas with relatively low poverty despite being surrounded by high-poverty areas.  The far southeast of the city, on the other hand, shows up as an area with relatively high poverty despite being near low-poverty areas.
 
 What seems particularly notable about this data is that in a number of places, it seems not to match the general pattern seen in the racial data, something that needs to be examined further via bivariate analysis.
 
-![](../maps/Univariate_pF.JPG)
+![](Univariate_pF.JPG)
 Univate local Moran's I analysis of the percentage of female residents in Baltimore neighborhoods.  Red indicates neighborhoods at the core of clusters with a high percentage of female residents.  Blue indicates neighborhoods at the core of clusters with a low percentage of female residents.
 
 The local spatial autocorrelation analysis of the gender ratios of Baltimore neighborhoods was a bit closer to what was expected.  It did show clusters of high-percentage-female neigbhorhoods in both areas with particularly high numbers of African-American residents.  It also showed that the lower half of the "white L," but not the upper half of it, has a very large cluster of neighborhoods with low npercentages of female residents.
@@ -108,17 +108,17 @@ The local spatial autocorrelation analysis of the gender ratios of Baltimore nei
 
 To determine whether the clusters found with the univariate local Moran's I analyses of the three variables were related, I decided to perform bivariate analyses of each of the three possible pairs of the two variables.  The purpose of this analysis was to determine to what degree the three variables were spatially correlated with each other.
 
-![](../maps/Bivariate_pAA_pHHPov.JPG)
+![](Bivariate_pAA_pHHPov.JPG)
 Bivariate local Moran's I analysis of the percentage of African-American residents versus the percentage of households experiencing poverty in Baltimore neighborhoods.  Dark red indicates clusters with high concentrations of both African-American residents and households experiencing poverty.  Dark blue indicates clusters with low concentrations of both African-American residents and households experiencing poverty.  Light blue indicates clusters with high rates of poverty but low concentrations of African-American residents, while light red indicates clusters with low rates of poverty but high concentrations of African-American residents.
 
 Local spatial bivariate correlation analysis of the percentages of African-American residents and residents experiencing poverty showed portions of the expected "black butterfly," but did not really show evidence of matching the "white L."  It was notable, however, that downtown showed up as a high-poverty cluster with a low concentration of African-Americans.
 
-![](../maps/Bivariate_pF_pAA.JPG)
+![](Bivariate_pF_pAA.JPG)
 Bivariate local Moran's I analysis of the percentage of female residents versus the percentage of African-American residents in Baltimore neighborhoods.  The neighborhoods in red form the core of a cluster with high percentages of female and African-American residents, while the neighborhoods in blue form the core of a cluster with low percentages of female and African-American residents.
 
 On the other hand, when the same analysis was performed comparing the percentages of female and African-American residents, the "white L" jumped right out in the form of two clusters of low concentrations of African-American and female residents.  Meanwhile, the heavily African-American neighborhoods of West Baltimore formed a cluster of high concentrations of both African-American and female residents.
 
-![](../maps/Bivariate_pF_pHHPov.JPG)
+![](Bivariate_pF_pHHPov.JPG)
 Bivariate local Moran's I analysis of the percentage of female residents versus the percentage of households experiencing poverty in Baltimore neighborhoods.  Dark red indicates clusters with high concentrations of both female residents and households experiencing poverty.  Dark blue indicates clusters with low concentrations of both female residents and households experiencing poverty.  Light blue indicates clusters with high rates of poverty but low concentrations of female residents, while light red indicates clusters with low rates of poverty but high concentrations of female residents.
 
 Analysis of the spatial correlation of high percentages of African-American residents and households experiencing poverty gave somewhat more complicated results.  However, it's interesting to note that the same high-low and low-high clusters seen in the bivariate analysis of the percentages of African-American residents and female residents appear here, too.  Low poverty rates do not seem to prevent African-American neighborhoods from having high rates of female residents, nor do high poverty rates seem to cause non-African-American residents to have high concentrations of female residents.
