@@ -1,3 +1,6 @@
+---
+title: GES 687 Portfolio
+---
 <style type="text/css">
 .align-left {
   display: block;
@@ -7,9 +10,6 @@
   float: left;
 }
 </style>
----
-title: GES 687 Portfolio
----
 
 ![My photo](DWRowlands-Headshot.jpg){: .align-left width="120px"}
 My name is DW Rowlands.  I am a visiting lecturer in chemistry at the [University of Maryland, Baltimore County](https://www.umbc.edu) and I write about urban planning, transportation, and local history topics for [Greater Greater Washington](https://ggwash.org/drowlands).  
