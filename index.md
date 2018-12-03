@@ -10,6 +10,7 @@
 
 ---
 title: GES 687 Portfolio
+
 ---
 
 ![My photo](DWRowlands-Headshot.jpg){: .align-left width="120px"}
