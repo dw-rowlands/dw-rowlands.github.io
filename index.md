@@ -52,6 +52,8 @@ This map of [Baltimore's Housing Market Typology](https://planning.baltimorecity
 &nbsp;
 &nbsp;
 &nbsp;
+&nbsp;
+&nbsp;
 
 ------
 
