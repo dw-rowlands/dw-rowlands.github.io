@@ -1,1 +1,10 @@
 remote_theme: daviddarnes/alembic
+
+navigation_header:
+  Home: /
+  Project 1: Baltimore-MVA/Baltimore-MVA.html
+  Real Estate and Transit: Baltimore-Property-Values-and-Transit/Baltimore-Property-Values-and-Transit.html
+  Census-Designated Places: SampleProject/CDPs.html
+  Poverty, Race, and Incarceration: ClusterAnalysisLab/ClusterAnalysisLab.html
+  Population Distribution and Race: DC_Pop_Dist/DC_Pop_Dist.html
+  Final Project: FinalProject/FinalProject.html
