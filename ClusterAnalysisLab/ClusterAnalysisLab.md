@@ -1,45 +1,8 @@
 ---
-title: Cluster Analysis Lab
+title: Race, Poverty, and Gender Ratios in Baltimore
 ---
 
-For my the cluster analysis lab in GES 687, I decided to look at the relationships between race, poverty, and gender ratios in Baltimore.  Before analyzing Baltimore demographic data, however, I learned to use the GeoDa software I needed to analyze the data by using [a tutorial](https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html) created by Luc Anselin of the University of Chicago.
-
-### Part 1: Cluster Analysis Tutorial
-
-For the cluster analysis tutorial, I produced maps of clusters of high and low levels of donations to the poor from [Guerry's classic "moral statistics" of France dataset](https://geodacenter.github.io/data-and-lab/Guerry/).  Three different statistical tests were used to identify clusters.
-
-#### Univariate Local Moran's I Cluster Map
-
-The first step of the tutorial involved a univariate local Moran's I cluster analysis.  The resulting map indicated statistically significant clusters of high and low levels of the variable being studied, donations to the poor, as well as local outliers.
-
-To look for correlations with related statistics, four maps were made, showing the clusters in regions of France with high or low values of both number of clergy and literacy, which are plausibly related.
-
-![](Guerry_1.JPG)
-A four-by-four grid showing the correlation of clusters of high and low levels of donations to the poor in regions of France with different levels of literacy and concentrations of clergy.
-
-
-
-#### Univariate Local Geary Cluster Map
-
-Next, we performed a univariate local Geary cluster analysis.  This method found slightly different, but similarly located, clusters.  However, while it also identified local outliers, it could not distinguish between local maxima and local minima.
-
-![](Guerry_2.JPG)
-A pair of maps, produced with a univariate local Geary cluster analysis, showing clusters with high and low levels of donations to the poor at p < 0.05 significance with 99,999 permuations, and showing the significance levels for different regions.
-
-
-
-#### Local Gi Cluster Maps
-
-Finally, we produced a cluster map using a local Gi analysis.  Here, we chose a significantly tighter significance bound, and found that only one cluster, in the southeast of France, stood up to this analysis.
-
-![](Guerry_3.JPG)
-A local Gi cluster map, calculated at the Bonferroni significance bound for 99% significance, p < 0.000588235.  Only one cluster is found.
-
-
-
-### Parts 2 and 3: Baltimore Demographic Data
-
-For the second part of this lab, I analyzed demographic data related to poverty, race, and the carceral state from the Baltimore Neighborhood Indicators Alliance's [2016 Vital Signs dataset](https://bniajfi.org/vital_signs/).  This dataset consists of an ESRI Shapefile containing a map of Baltimore's neighborhoods with a variety of demographic data provided for each neighborhood.
+For my the cluster analysis lab in GES 687, I decided I analyzed demographic data related to poverty, race, and the carceral state from the Baltimore Neighborhood Indicators Alliance's [2016 Vital Signs dataset](https://bniajfi.org/vital_signs/).  This dataset consists of an ESRI Shapefile containing a map of Baltimore's neighborhoods with a variety of demographic data provided for each neighborhood.
 
 
 #### Selecting Statistics to Analyze
@@ -138,9 +101,7 @@ More analysis is definitely needed before reaching any definite conclusions, but
 
 ### Discussion of Data Sources and Software Used
 
-The analyses in Part 1 used [the classic Guerry "moral statistics" of France data from the 1830's](https://geodacenter.github.io/data-and-lab/Guerry/) and was based on [a tutorial by Luc Anselin of the University of Chicago](https://geodacenter.github.io/workbook/6a_local_auto/lab6a.html).
-
-The analyses in Part 2 was performed using data from [the Baltimore Neighborhood Indicators Alliance's "Vital Signs 16" dataset](https://bniajfi.org/vital_signs/).
+The analyses was performed using data from [the Baltimore Neighborhood Indicators Alliance's "Vital Signs 16" dataset](https://bniajfi.org/vital_signs/).
 
 Initial maps of the three chosen statistics in Baltimore were made in QGIS 3, and the boundaries of the neighborhood shapefiles were also adjusted with this program.
 
