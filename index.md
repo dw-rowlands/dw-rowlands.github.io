@@ -43,6 +43,7 @@ This 3D map of of Baltimore City shows distance from transit as elevation and va
 #### [Baltimore Housing Market Typology](Baltimore-MVA/Baltimore-MVA.html)
 
 &nbsp;
+
 ![Map of Baltimore Housing Typology](Baltimore-MVA/Baltimore-MVA.png){: .align-left width="240px"}
 This map of [Baltimore's Housing Market Typology](https://planning.baltimorecity.gov/maps-data/housing-market-typology) shows real property in Baltimore color-coded by use and market conditions.  It was produced for Lab 1 in GES 687 during the Fall 2018 semester at UMBC.
 
