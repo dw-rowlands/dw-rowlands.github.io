@@ -2,6 +2,7 @@
 title: Population Distribution and Race in Washington, DC
 --- 
 
+
 For my second GES 687 project, I decided to look at how population distribution and density have changed in the Washington, DC metro area over the past half-century.
 
 Using historical population data by Census tract for the five US Decennial Censuses 1970-2010 from the [IPUMS National Historical GIS project of the University of Minnesota](www.nhgis.org), I mapped the population densities of Census tracts in the DC metro area for each year between 1970 and 2010.
