@@ -24,9 +24,6 @@ In addition, for Section 1, I attempted to correct for the missing security-rela
 
 
 
-
-
-
 ## 1: Mapping Job Density
 
 The most common way to map the density of urban areas is to map their population density.  This is easily done, since essentially all national governments perform regular censuses that record the number of residents within relatively small tracts covering the whole country.
@@ -153,6 +150,7 @@ In Annapolis only one block group registered as the core of such a cluster, appa
 The situation in Baltimore was, unsurprisingly, a bit more interesting.  Still, only three clusters of high job density were identified in the Baltimore area.  The largest one consisting of downtown Baltimore, broadly defined, and including Mount Vernon, Fells Point, and the Johns Hopkins medical campus.  A second cluster within the City of Baltimore seems to correspond to the Johns Hopkins main campus, and a larger cluster (geographically about half the size of the downtown cluster) is present in Towson.
 
 ![Univariate Moran's I analysis of jobs per acre in Baltimore](Maps/jobs_per_acre_high-res_Baltimore_cropped.png)
+
 A univariate Moran's I autocorrelation analysis of job density in Baltimore.  Dark red indicates the cores of clusters of high job density.  Only three such clusters are visible: the largest one, at bottom, is downtown Baltimore including Fells Point and the Johns Hopkins Medical Campus; the cluster near the top is Towson, in Baltimore County; and the cluster just north of downtown Baltimore appears to be in the vicinity of the Johns Hopkins main campus in Hamden-Charles Village.
 
 The DC area, however, showed a much larger number of suburban clusters, besides the main downtown DC cluster, which includes the Shaw-Howard University area, Georgetown, NoMa, Capitol Hill, and L'Enfant Plaza.
@@ -161,6 +159,7 @@ Six clusters in Montgomery County, Maryland are visible, while the only high-job
 
 
 ![Univariate Moran's I analysis of jobs per acre in DC](Maps/jobs_per_acre_high-res_DC_cropped.png)
+
 A univariate Moran's I autocorrelation analysis of job density in DC at the same resolution as the one of Baltimore.  Dark red indicates the cores of clusters of high job density.  Here, in addition to downtown DC, a number of suburban clusters of high job density are seen in Montgomery County, Maryland (Friendship Heights, Silver Spring, Bethesda, Twinbrook-White Flint, Downtown Rockville, Gaithersburg) and Northern Virginia (Tysons Corner, Reston, Fair Oaks, Springfield, the Rosslyn-Ballston Corridor, South Arlington, and East Alexandria).
 
 ### 2.2: Univariate Moran's I of Excess Job Density
@@ -170,6 +169,7 @@ In an attempt to identify job clusters that did not show up in the autocorrelati
 In the Baltimore area, the changes from the original analysis were relatively minor.  The downtown Baltimore cluster is nearly identical, while the Towson cluster is rather larger and no longer discontinuous.  In this analysis, several block groups that have notably higher excess job density than their surroundings turned up.  Oddly, the largest ones seem to correspond to parkland; this may indicate a problem in the underlying data.
 
 ![](Maps/excess_jobs_per_acre_high-res_Baltimore_cropped.png)
+
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in Baltimore.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.  The large cluster in the upper portion of the image is Towson; the large cluster in the lower portion is downtown Baltimore.
 
 The excess job density autocorrelation map for DC is—as it was for job density—much more interesting than the map for Baltimore.  The largest clusters are in Tysons Corner and Downtown DC.  The Rosslyn-Ballston Corridor is visible but mut less prominent and East Alexandria and South Arlington both show up, along with Reston and Fair Oaks.
@@ -177,6 +177,7 @@ The excess job density autocorrelation map for DC is—as it was for job density
 More notable is the fact that the I-395 corridor from DC to Springfield starts to be visible, mostly as a number of idependent block groups with high excess job density surrounded by clusters of block groups with highly negative excess job density (i.e. dense residential areas).
 
 ![](Maps/excess_jobs_per_acre_high-res_DC_cropped.png)
+
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in DC.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.
 
 This excess job density map is perhaps even more interesting in the Maryland suburbs, as it makes several relatively dense but primarily residential suburban clusters with some jobs appear.  Burtonsville, White Oak, and College Park-Langley Park all show up as a single block group with higher-than-surroundings excess job density along with larger clusters of negative excess job density.
@@ -186,11 +187,13 @@ Likewise, the Mid-City and far northern parts of the 16th Street Corridor in DC 
 The analysis of Annapolis is notably different in that it shows three cores: one consisting of three block groups in or near the historic downtown, one consisting of a single block group near Annapolis Mall, and one consisting of a single block group containing the Annapolis Technology Park.
 
 ![](Maps/excess_jobs_per_acre_high-res_Annapolis_cropped.png)
+
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in Annapolis.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.  The cluster to the right is historic downtown Annapolis, the one in the center is in the vicinity of Annapolis Mall, and the one to the lower left seems to correspond to Annapolis Technology Park.
 
 In Frederick, this analysis does not seem to provide significantly different results from those found in the analysis of job density alone.  However, the cluster that was in the historic downtown in that analysis seems to have shifted to the right, perhaps because the historic downtown has fairly dense rowhouse neighborhoods.
 
 ![](Maps/excess_jobs_per_acre_high-res_Frederick_cropped.png)
+
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in Frederick.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.  As before, two clusters appear: this time, one just to the east of the historic downtown and one just south of it.
 
 The fact that historic downtown Annapolis, but not historic downtown Frederick, shows up as a core of high excess job density is likely because downtown Annapolis contains a number of government office buildings and also has significantly fewer residences than downtown Frederick, which is largely made up of small stores and rowhouses.
@@ -204,16 +207,19 @@ As with the initial job density autocorrelation analysis, only Washington, Balti
 In the Baltimore area bivariate correlation map, Towson seems to have completely vanished, but clusters of high job density in comparison to worker density are seen in several locations in the suburbs, including Lutherville-Timonium, the Columbia Gateway business park, and a number of other sites I haven't been able to identify.
 
 ![](Maps/jobs-workers_per_acre_high-res_Baltimore_cropped.png)
+
 A bivariate Moran's I correlation analysis of the Baltimore area with the first (red) variable as job density and the second (blue) variable as worker density.
 
 Zooming in more closely on the City of Baltimore shows more interesting behavior.  The heart of downtown doesn't show up at all, while the Inner Harbor, Fells Point, Mount Vernon, and the Johns Hopkins main campus and medical campus all show up as concentrations of high density jobs and workers.  The fact that downtown is missing from the map is confusing, and I don't have a good explanation for it.
 
 ![](Maps/jobs-workers_per_acre_very-high-res_Baltimore_cropped.png)
+
 A bivariate Moran's I correlation analysis of Baltimore proper with the first (red) variable as job density and the second (blue) variable as worker density.
 
 There are similar oddities in the map of the DC area.  Tysons Corner—the largest suburban job cluster in the region, with 80,000 to 100,000 jobs depending on how the cluster is defined seems to be completely missing.  Downtown Rockville and the Twinbrook-White Flint area are completely missing as well, and Eastern Alexandria is much reduced and seems to consist primarily of workers rather than jobs.
 
 ![](Maps/jobs-workers_per_acre_high-res_DC_cropped.png)
+
 A bivariate Moran's I correlation analysis of the DC area with the first (red) variable as job density and the second (blue) variable as worker density.
 
 In the closer-in Maryland suburbs, Bethesda is visible but much reduced in size, while Silver Spring is, if anything, more prominent.  Interestingly, White Oak and Olney, which were barely visible in the other analyses seem somewhat more notable here, and Langley Park appears as a cluster of both jobs and workers.  (It in fact is a very dense residential area but, while it has a number of stores, it is not particularly job-dense other than in comparison to the entirely residential neighborhoods near it.)
@@ -221,6 +227,7 @@ In the closer-in Maryland suburbs, Bethesda is visible but much reduced in size,
 Downtown DC, South Arlington, and the Rosslyn-Ballson corridor show up largely as before and, again, the I-395 corridor between Springfield and DC seems quite prominent, with clusters both of high job and worker density and of low job but high worker density.
 
 ![](Maps/jobs-workers_per_acre_very-high-res_DC_cropped.png)
+
 A bivariate Moran's I correlation analysis of the DC area somewhat more zoomed in with the first (red) variable as job density and the second (blue) variable as worker density.
 
 Overall, it is clear that the bivariate correlation analysis in this section is not a good way to identify suburban job clusters.  Both the job density and excess job density analysis did a better job of doing so, with excess job density probably the most useful overall.  However, even excess job density missed some notable suburban job clusters that should be included in the commutershed analysis in Section 3.
