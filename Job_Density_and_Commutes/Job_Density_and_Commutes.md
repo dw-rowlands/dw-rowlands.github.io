@@ -174,7 +174,7 @@ In Annapolis only one block group registered as the core of such a cluster, appa
 
 The situation in Baltimore was, unsurprisingly, a bit more interesting.  Still, only three clusters of high job density were identified in the Baltimore area.  The largest one consisting of downtown Baltimore, broadly defined, and including Mount Vernon, Fells Point, and the Johns Hopkins medical campus.  A second cluster within the City of Baltimore seems to correspond to the Johns Hopkins main campus, and a larger cluster (geographically about half the size of the downtown cluster) is present in Towson.
 
-![Univariate Moran's I analysis of jobs per acre in Baltimore](maps/jobs_per_acre_high-res_Baltimore_cropped.png)
+![Univariate Moran's I analysis of jobs per acre in Baltimore](Maps/jobs_per_acre_high-res_Baltimore_cropped.png)
 A univariate Moran's I autocorrelation analysis of job density in Baltimore.  Dark red indicates the cores of clusters of high job density.  Only three such clusters are visible: the largest one, at bottom, is downtown Baltimore including Fells Point and the Johns Hopkins Medical Campus; the cluster near the top is Towson, in Baltimore County; and the cluster just north of downtown Baltimore appears to be in the vicinity of the Johns Hopkins main campus in Hamden-Charles Village.
 
 The DC area, however, showed a much larger number of suburban clusters, besides the main downtown DC cluster, which includes the Shaw-Howard University area, Georgetown, NoMa, Capitol Hill, and L'Enfant Plaza.
@@ -182,7 +182,7 @@ The DC area, however, showed a much larger number of suburban clusters, besides 
 Six clusters in Montgomery County, Maryland are visible, while the only high-job-density block group visible in Prince George's County, Maryland is the one containing the Suitland Federal Center, which is surrounded by low-job-density areas.
 
 
-![Univariate Moran's I analysis of jobs per acre in DC](maps/jobs_per_acre_high-res_DC_cropped.png)
+![Univariate Moran's I analysis of jobs per acre in DC](Maps/jobs_per_acre_high-res_DC_cropped.png)
 A univariate Moran's I autocorrelation analysis of job density in DC at the same resolution as the one of Baltimore.  Dark red indicates the cores of clusters of high job density.  Here, in addition to downtown DC, a number of suburban clusters of high job density are seen in Montgomery County, Maryland (Friendship Heights, Silver Spring, Bethesda, Twinbrook-White Flint, Downtown Rockville, Gaithersburg) and Northern Virginia (Tysons Corner, Reston, Fair Oaks, Springfield, the Rosslyn-Ballston Corridor, South Arlington, and East Alexandria).
 
 ### 2.2 - Univariate Moran's I of Excess Job Density
@@ -191,14 +191,14 @@ In an attempt to identify job clusters that did not show up in the autocorrelati
 
 In the Baltimore area, the changes from the original analysis were relatively minor.  The downtown Baltimore cluster is nearly identical, while the Towson cluster is rather larger and no longer discontinuous.  In this analysis, several block groups that have notably higher excess job density than their surroundings turned up.  Oddly, the largest ones seem to correspond to parkland; this may indicate a problem in the underlying data.
 
-![](maps/excess_jobs_per_acre_high-res_Baltimore_cropped.png)
+![](Maps/excess_jobs_per_acre_high-res_Baltimore_cropped.png)
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in Baltimore.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.  The large cluster in the upper portion of the image is Towson; the large cluster in the lower portion is downtown Baltimore.
 
 The excess job density autocorrelation map for DC is—as it was for job density—much more interesting than the map for Baltimore.  The largest clusters are in Tysons Corner and Downtown DC.  The Rosslyn-Ballston Corridor is visible but mut less prominent and East Alexandria and South Arlington both show up, along with Reston and Fair Oaks.
 
 More notable is the fact that the I-395 corridor from DC to Springfield starts to be visible, mostly as a number of idependent block groups with high excess job density surrounded by clusters of block groups with highly negative excess job density (i.e. dense residential areas).
 
-![](maps/excess_jobs_per_acre_high-res_DC_cropped.png)
+![](Maps/excess_jobs_per_acre_high-res_DC_cropped.png)
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in DC.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.
 
 This excess job density map is perhaps even more interesting in the Maryland suburbs, as it makes several relatively dense but primarily residential suburban clusters with some jobs appear.  Burtonsville, White Oak, and College Park-Langley Park all show up as a single block group with higher-than-surroundings excess job density along with larger clusters of negative excess job density.
@@ -207,12 +207,12 @@ Likewise, the Mid-City and far northern parts of the 16th Street Corridor in DC 
 
 The analysis of Annapolis is notably different in that it shows three cores: one consisting of three block groups in or near the historic downtown, one consisting of a single block group near Annapolis Mall, and one consisting of a single block group containing the Annapolis Technology Park.
 
-![](maps/excess_jobs_per_acre_high-res_Annapolis_cropped.png)
+![](Maps/excess_jobs_per_acre_high-res_Annapolis_cropped.png)
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in Annapolis.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.  The cluster to the right is historic downtown Annapolis, the one in the center is in the vicinity of Annapolis Mall, and the one to the lower left seems to correspond to Annapolis Technology Park.
 
 In Frederick, this analysis does not seem to provide significantly different results from those found in the analysis of job density alone.  However, the cluster that was in the historic downtown in that analysis seems to have shifted to the right, perhaps because the historic downtown has fairly dense rowhouse neighborhoods.
 
-![](maps/excess_jobs_per_acre_high-res_Frederick_cropped.png)
+![](Maps/excess_jobs_per_acre_high-res_Frederick_cropped.png)
 A univariate Moran's I autocorrelation analysis of excess job density (density of jobs minus workers) in Frederick.  Dark red indicates the cores of clusters of high job density.  Gray indicates block groups adjacent to cores.  As before, two clusters appear: this time, one just to the east of the historic downtown and one just south of it.
 
 The fact that historic downtown Annapolis, but not historic downtown Frederick, shows up as a core of high excess job density is likely because downtown Annapolis contains a number of government office buildings and also has significantly fewer residences than downtown Frederick, which is largely made up of small stores and rowhouses.
@@ -225,24 +225,24 @@ As with the initial job density autocorrelation analysis, only Washington, Balti
 
 In the Baltimore area bivariate correlation map, Towson seems to have completely vanished, but clusters of high job density in comparison to worker density are seen in several locations in the suburbs, including Lutherville-Timonium, the Columbia Gateway business park, and a number of other sites I haven't been able to identify.
 
-![](maps/jobs-workers_per_acre_high-res_Baltimore_cropped.png)
+![](Maps/jobs-workers_per_acre_high-res_Baltimore_cropped.png)
 A bivariate Moran's I correlation analysis of the Baltimore area with the first (red) variable as job density and the second (blue) variable as worker density.
 
 Zooming in more closely on the City of Baltimore shows more interesting behavior.  The heart of downtown doesn't show up at all, while the Inner Harbor, Fells Point, Mount Vernon, and the Johns Hopkins main campus and medical campus all show up as concentrations of high density jobs and workers.  The fact that downtown is missing from the map is confusing, and I don't have a good explanation for it.
 
-![](maps/jobs-workers_per_acre_very-high-res_Baltimore_cropped.png)
+![](Maps/jobs-workers_per_acre_very-high-res_Baltimore_cropped.png)
 A bivariate Moran's I correlation analysis of Baltimore proper with the first (red) variable as job density and the second (blue) variable as worker density.
 
 There are similar oddities in the map of the DC area.  Tysons Corner—the largest suburban job cluster in the region, with 80,000 to 100,000 jobs depending on how the cluster is defined seems to be completely missing.  Downtown Rockville and the Twinbrook-White Flint area are completely missing as well, and Eastern Alexandria is much reduced and seems to consist primarily of workers rather than jobs.
 
-![](maps/jobs-workers_per_acre_high-res_DC_cropped.png)
+![](Maps/jobs-workers_per_acre_high-res_DC_cropped.png)
 A bivariate Moran's I correlation analysis of the DC area with the first (red) variable as job density and the second (blue) variable as worker density.
 
 In the closer-in Maryland suburbs, Bethesda is visible but much reduced in size, while Silver Spring is, if anything, more prominent.  Interestingly, White Oak and Olney, which were barely visible in the other analyses seem somewhat more notable here, and Langley Park appears as a cluster of both jobs and workers.  (It in fact is a very dense residential area but, while it has a number of stores, it is not particularly job-dense other than in comparison to the entirely residential neighborhoods near it.)
 
 Downtown DC, South Arlington, and the Rosslyn-Ballson corridor show up largely as before and, again, the I-395 corridor between Springfield and DC seems quite prominent, with clusters both of high job and worker density and of low job but high worker density.
 
-![](maps/jobs-workers_per_acre_very-high-res_DC_cropped.png)
+![](Maps/jobs-workers_per_acre_very-high-res_DC_cropped.png)
 A bivariate Moran's I correlation analysis of the DC area somewhat more zoomed in with the first (red) variable as job density and the second (blue) variable as worker density.
 
 Overall, it is clear that the bivariate correlation analysis in this section is not a good way to identify suburban job clusters.  Both the job density and excess job density analysis did a better job of doing so, with excess job density probably the most useful overall.  However, even excess job density missed some notable suburban job clusters that should be included in the commutershed analysis in Section 3.
@@ -315,27 +315,27 @@ The first approach I took to trying to understand the distributions of workers c
 
 The commuter distribution map for downtown Balimore is relatively symmetrical, but it is notable that the suburbs to the north have more commuters going into Baltimore than the suburbs to the south.  This is roughly what one might expect, since I-83 gives commuters from the north a direct connection to downtown Baltimore, while commuting in from the south is more difficult.  Furthermore, areas to the south face more competition with people commuting into DC and DC suburbs.
 
-![](maps/residents_working_in_downtown-Baltimore_large.png)
+![](Maps/residents_working_in_downtown-Baltimore_large.png)
 Map of the precentage of workers who commute to downtown Baltimore by Census block group, based on 2015 LEHD LODES data.
 
 A closer-in map of commuting patterns inside and near the Baltimore Beltway makes it clear that Baltimore's rail transit doesn't seem to have that big an influence on whether workers commute to downtown.  There is something of a pattern to have higher commuter densities along the northern portion of the light rail line, but this may also be due to commuters coming in along I-83, and the match isn't that close.
 
-![](maps/residents_working_in_downtown-Baltimore_small.png)
+![](Maps/residents_working_in_downtown-Baltimore_small.png)
 Close-up map of the precentage of workers who commute to downtown Baltimore by Census block group, based on 2015 LEHD LODES data.
 
 It does seem noteworthy that less than 10% of workers along the light rail line in Anne Arundel County actually commute into downtown Baltimore.  This may, along with racial politics, help explain the strong opposition to the line in these areas, and the persistant attempts by locals to get the stations closed.
 
-![](maps/residents_working_in_Towson.png)
+![](Maps/residents_working_in_Towson.png)
 Map of the precentage of workers who commute to Towson by Census block group, based on 2015 LEHD LODES data.
 
 Unsurprisingly, commuters to Towson—which is not well served by transit—tend to come from the area north of Baltimore, where they don't have to pass through or around the city's congestion to get to work.  I was a bit surprised, however, to find that the areas with the most workers commuting to Towson are not to the north along I-83, but largely to the northeast of the job cluster.
 
-![](maps/residents_working_in_Lutherville-Timonium.png)
+![](Maps/residents_working_in_Lutherville-Timonium.png)
 Map of the precentage of workers who commute to Lutherville-Timonium by Census block group, based on 2015 LEHD LODES data.
 
 While Lutherville-Timonium is better served by the Baltimore light rail than Towson, it is also a lower-density job cluster where it seems likely that many workers cannot easily get to their jobs by transit.  However, it does seem to have a surprisingly concentrated worker pool, which surprised me.
 
-![](maps/residents_working_in_Columbia.png)
+![](Maps/residents_working_in_Columbia.png)
 Map of the precentage of workers who commute to Columbia by Census block group, based on 2015 LEHD LODES data.
 
 Columbia seems to share Towson's trait of having workers generally quite centered on the job cluster.  (I am not sure what the cause of the one greater-than-20% block group is, but it seems out of place and may be noise in the data.)
@@ -344,14 +344,14 @@ Columbia seems to share Towson's trait of having workers generally quite centere
 
 For DC, I calculated commutersheds for a combined downtown DC consisting of Georgetown, Old Downtown, New Downtown, and L'Enfant Plaza.  The size and significance of this combined downtown compared to Baltimore's was quite visible: while only a very few block groups outside of Baltimore proper sent more than 20% of their workers to downtown Baltimore, nearly all of Arlington County, the City of Alexandria, Montgomery County inside the Beltway, and a very large chunk of Prince George's County—much of it outside the Beltway—send more than 20% of their workers to downtown DC.
 
-![](maps/residents_working_in_downtown-DC_large.png)
+![](Maps/residents_working_in_downtown-DC_large.png)
 Map of the precentage of workers who commute to downtown DC (Georgetown, Old Downtown, New Downtown, and L'Enfant Plaza) by Census block group, based on 2015 LEHD LODES data.
 
 The distribution of workers commuting into downtown DC definitely seems distorted toward the southwest.  This is likely in part due to the fact that Prince George's County as a whole, and southern Prince George's County in particular has very few jobs, meaning that workers there are particularly likely to be commuting long distances.
 
 It is also interesting to note that there seems to be a very distinct drop-off in the fraction of workers commuting to downtown DC at the borders of Montgomery and Prince George's Counties.
 
-![](maps/residents_working_in_downtown-DC_small.png)
+![](Maps/residents_working_in_downtown-DC_small.png)
 Close-up map of the precentage of workers who commute to downtown DC by Census block group, based on 2015 LEHD LODES data.
 
 Taking a close-in look at the area inside and just outside the Beltway, it is notable that, unlike in Baltimore, Metrorail stations in the DC area seem to contribute to larger fractions of the population commuiting to downtown DC.  Particularly notable are islands of greater than 20% of residents commuting downtown in the vicnities of the Vienna, Dun Loring, Ban Dorn Street, College Park, and New Carrollton stations.
@@ -362,22 +362,22 @@ Other patterns, such as the string of block groups with high fractions of their 
 
 Unsurprisingly, since many of DC's major suburbs are within the area where 20% of workers commute to downtown DC, their worker density tends to be shifted away from the city to some degree.  However, the shift is not necessarily that large, as we can see with workers commuting to College Park.  (That many of these workers are university faculty and research staff, who tend to be prone to live close to work in general may be relevant.)
 
-![](maps/residents_working_in_CollegePark.png)
+![](Maps/residents_working_in_CollegePark.png)
 Map of the precentage of workers who commute to College Park by Census block group, based on 2015 LEHD LODES data.
 
 In the case of Bethesda, although the kb cluster is well served by Metro, access to Metro does not seem to be as relevant to worker locations as simply being outside of the District's even more constrained housing market.
 
-![](maps/residents_working_in_Bethesda.png)
+![](Maps/residents_working_in_Bethesda.png)
 Map of the precentage of workers who commute to Bethesda by Census block group, based on 2015 LEHD LODES data.
 
 A similar pattern of workers along Rockville Pike tending to live further away from the District is also notable.  However, like with Bethesda, there is still a significant cluster of workers near the job cluster itself.
 
-![](maps/residents_working_in_RockvillePike.png)
+![](Maps/residents_working_in_RockvillePike.png)
 Map of the precentage of workers who commute to Rockville Pike by Census block group, based on 2015 LEHD LODES data.
 
-Gauthersburg, on the other hand, seems to have most of its workers further out from the District, with lower concentrations near the cluster itself.
+Gaithersburg, on the other hand, seems to have most of its workers further out from the District, with lower concentrations near the cluster itself.
 
-![](maps/residents_working_in_Gaithersburg.png)
+![](Maps/residents_working_in_Gaithersburg.png)
 Map of the precentage of workers who commute to Gaithersburg by Census block group, based on 2015 LEHD LODES data.
 
 In both Rockville and Gaithersburg, it is also very clear that the Potomac is a significant barrier: it seems to result in a drop off of the percentage of workers commuting to downtown DC of nearly half.  This makes sense, given that commuting to these areas from across the Potomac would probably require driving across the very busy American Legion Bridge.
@@ -386,39 +386,39 @@ In both Rockville and Gaithersburg, it is also very clear that the Potomac is a 
 
 Workers in DC's suburbs in Northern Virgina also seem, at least in terms of percentages, to be largely centered on the areas where they work.  (When we look at centroids in section 3.4, however, we will find that this may not be so consistently true.)
 
-![](maps/residents_working_in_TysonsCorner.png)
+![](Maps/residents_working_in_TysonsCorner.png)
 Map of the precentage of workers who commute to Tysons Corner by Census block group, based on 2015 LEHD LODES data.
 
 Tysons Corner is a large enough job cluster that it actually has over 20% of workers living near or in it working there as well.  Unfortunately, while this would seem to make for a good walkable urban area, the street grid, which is broken up by huge parking lots, freeways, and major arterials, makes this less the case than one might hope.
 
-![](maps/residents_working_in_Reston.png)
+![](Maps/residents_working_in_Reston.png)
 Map of the precentage of workers who commute to Reston by Census block group, based on 2015 LEHD LODES data.
 
 A similar pattern is seen in Reston, which is northern Virginia's second-largest job cluster, though it has similar difficulties to Tysons in terms of an unfriendly street grid.  Furthermore, unlike the Metro stations in Tysons, which were optimized to be relatively close to job and residential centers, those being built in Reston will be somewhat less conveniently located.
 
-![](maps/residents_working_in_Rosslyn-Ballston.png)
+![](Maps/residents_working_in_Rosslyn-Ballston.png)
 Map of the precentage of workers who commute to Rosslyn-Ballston by Census block group, based on 2015 LEHD LODES data.
 
 With Northern Virginia's more urban and better-served-by-transit job clusters of the Rosslyn-Ballston corridor, South Arlington, and East Alexandria, I was kind of surprised by how few workers commute in from the District and Maryland.  In the case of South Arlington and East Alexandria, though, it's noticable that commuters from Maryland seem to mostly be located in southern Prince George's County, perhaps because this area is relatively close (though it requires crossing the Woodrow Wilson Bridge or an indirect Metro trip) and has virtually no jobs of its own.
 
-![](maps/residents_working_in_SArlington-EAlexandria.png)
+![](Maps/residents_working_in_SArlington-EAlexandria.png)
 Map of the precentage of workers who commute to South Arlington or East Alexandria by Census block group, based on 2015 LEHD LODES data.
 
 #### 3.2.4 - Annapolis, Frederick, and Hagerstown
 
 Jobs in Annapolis, Frederick, and Hagerstown pose a somewhat different situation, since these cities are located relatively far from the congestion and job clusters of DC and Baltimore.  In the case of Annapolis, significant numbers of workers mostly seem concentrated in Anne Arundel County and on Kent Island; the Patuxent River is a surprisingly significant boundary.
 
-![](maps/residents_working_in_Annapolis.png)
+![](Maps/residents_working_in_Annapolis.png)
 Map of the precentage of workers who commute to Annapolis by Census block group, based on 2015 LEHD LODES data.
 
 Frederick and Hagerstown are significantly further from DC and Baltimore, and are located in areas with lower populations and fewer jobs, so it's unsurprising that they have fairly large regions where significant fractions of the population commute to the central job cluster.
 
-![](maps/residents_working_in_Frederick.png)
+![](Maps/residents_working_in_Frederick.png)
 Map of the precentage of workers who commute to Frederick by Census block group, based on 2015 LEHD LODES data.
 
 In the case of Frederick, what surprised me most was the fact that the Montgomery County border seems to be a boundary between less than 5% and more than 10% of the population commuting to Frederick.
 
-![](maps/residents_working_in_Hagerstown.png)
+![](Maps/residents_working_in_Hagerstown.png)
 Map of the precentage of workers who commute to Hagerstown by Census block group, based on 2015 LEHD LODES data.
 
 In the case of Hagerstown, we can see a similarly strong effect from the Maryland-Pennsylvania border (which, not corresponding to a river, can't be attributed to road choke points as the borders with Virginia and West Virginia can.)  We also see that basically all of Washingon County sends at least 10% of its workers—for most of the county, more than 20%—to jobs in Hagerstown.
@@ -427,12 +427,12 @@ In the case of Hagerstown, we can see a similarly strong effect from the Marylan
 
 Finally, for the sake of curiousity, I mapped where people commute to UMBC from.  For this map, I mapped the number rather than the percentage of workers who commuted to the campus, since the number of workers at UMBC is so small.
 
-![](maps/residents_working_in_UMBC_large.png)
+![](Maps/residents_working_in_UMBC_large.png)
 Map of the number of workers who commute to UMBC by Census block group, based on 2015 LEHD LODES data.
 
 It appears that UMBC commuters tend to come from Baltimore and Howard Counties for the most part, although some do commute in from much further away.
 
-![](maps/residents_working_in_UMBC_small.png)
+![](Maps/residents_working_in_UMBC_small.png)
 Map of the number of workers who commute to UMBC by Census block group, based on 2015 LEHD LODES data.
 
 
@@ -442,7 +442,7 @@ I'd originally hoped to make dot maps showing the origins of commuters travellin
 
 I was, however, able to make a dot map showing origin points for commuters going to downtown Baltimore and downtown DC (the latter defined as my Georgetown, Old Downtown DC, New Downtown DC, and L'Enfant Plaza job clusters).
 
-![](maps/dotmaps_DC-Baltimore.png)
+![](Maps/dotmaps_DC-Baltimore.png)
 One dot per resident who works in either downtown DC (yellow dots) or downtown Baltimore (blue dots), randomly located within block groups.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 As we can see on this map, Baltimore is actually a source of commuters to downtown DC, though the reverse is not really true.  The boundary line between where more people commute to DC and where more people commute to Baltimore appears to be in Howard County, Maryland, somewhere between MD-32 and MD-100.  This is notable, given that the Census defines the boundary between the DC and Baltimore MSAs and urbanized areas somewhat further south: the MSA boundary, which by definition must be on a county line, follows the Patuxent River between Montgomery and Prince George's Counties to the south and Howard and Anne Arundel Counties to the north.
@@ -458,7 +458,7 @@ In order to identify patterns in the locations of these centroids, I also marked
 
 I was quite surprised by the consistency of the direction of offset for worker distributions in the Baltimore area.  I'd imagined that perhaps worker distributions would tend toward having centers further from downtown Baltimore than the clusters themselves, or that any pattern would at least be radial.
 
-![](maps/centroids_Baltimore.png)
+![](Maps/centroids_Baltimore.png)
 The centers of job clusters (blue) and their worker distributions (yellow) in the Baltimore area.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 Instead, it appears that every job cluster has its worker distribution centered to the south, west, or southwest of the cluster itself!  The offsets vary from 1 mile for Columbia to 9 miles for White Marsh, but the pattern seems to hold much more generally than one might expect:
@@ -481,7 +481,7 @@ Even UMBC, which I included in my analysis out of curiousity, has its worker dis
 
 Since the Washington, DC area is much larger, and I considered significantly more job clusters in it, I decided to look at the job cluster and worker distribution centers in the District proper, Maryland, and Northern Virginia separately.  This seems particularly reasonable since the Potomac River poses a major barrier to commuting between Northern Virginia and Maryland and, to a lesser degree, between the District and Northern Virginia.
 
-![](maps/centroids_DC.png)
+![](Maps/centroids_DC.png)
 The centers of job clusters (blue) and their worker distributions (yellow) in Washington, DC.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 Interestingly, despite the potential for the Potomac to serve as a barrier—and despite the pattern we saw above of commuters to DC making up a bigger fraction of the population in some Maryland suburbs than in Northern Virginia, the centers the worker distributions for all four job clusters in the District appear to be in Northern Virginia.
@@ -499,7 +499,7 @@ As with the Baltimore clusters, though presumably for different reasons, the DC 
 
 The pattern of offsets to the southwest that holds for Baltimore-area job clusters and for downtown DC finally breaks when we get to DC's Maryland suburbs.  These job clusters are all located north of DC and three of the five are located roughly along MD-355, which runs roughly parallel to the Potomac through Bethesda, Rockville, and Gaithersburg on its way between Northwest DC and Frederick.
 
-![](maps/centroids_DC-MD.png)
+![](Maps/centroids_DC-MD.png)
 The centers of job clusters (blue) and their worker distributions (yellow) in DC's Maryland suburbs.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 Each of the job clusters along MD-355, as well as Silver Spring, which is located just east of the corridor, has its worker distribution shifted two to four miles northeast of the job cluster.  This shift essentially amounts to a shift away from the Potomac River, which makes sense given the degree to which the river poses a serious barrier to commuting to these clusters from Northern Virginia: one must either take Metro on a detour through downtown DC or else cross the _very_ congested American Legion Bridge.
@@ -518,7 +518,7 @@ The fact that the center of the worker distribution for College Park is located 
 
 Job clusters in Northern Virginia seem to follow the same pattern of having worker distributions with centers shifted away from the Potomac.  Here, however, the shift can also be interpreted as a shift away from downtown DC, which makes sense if workers are generally more spread out across the region than jobs.
 
-![](maps/centroids_DC-VA.png)
+![](Maps/centroids_DC-VA.png)
 The centers of job clusters (blue) and their worker distributions (yellow) in DC's Northern Virginia suburbs.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 It's also notable just how large the shifts are in Northern Virginia, especially for jobs near the District.  The center of workers in East Alexandria and South Arlington is ten miles west of the job clusters, while the center of workers in the Rosslyn-Ballston corridor is nine miles west of the cluster's center: all three clusters are centered outside the Beltway.
@@ -538,12 +538,12 @@ I suspect that this sort of shift is best explained in terms of the insufficient
 
 In theory, one would expect the worker distributions around the job clusters in Annapolis, Frederick, and Hagerstown to be somewhat less affected by congestion than those in Baltimore and DC, since these areas have less traffic.  However, Annapolis, at least, still does have quite expensive housing.
 
-![](maps/centroids_Annapolis.png)
+![](Maps/centroids_Annapolis.png)
 The centers of job clusters (blue) and their worker distributions (yellow) in Annapolis.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 Interestingly, although Annapolis is bounded to the east by the Chesapeake Bay, which requires a toll and a relatively narrow choke point at the Bay Bridge to commute across, the center of Annapolis's worker cluster is actually quite near the center of the Annapolis job cluster.
 
-![](maps/centroids_Frederick-Hagerstown.png)
+![](Maps/centroids_Frederick-Hagerstown.png)
 The centers of job clusters (blue) and their worker distributions (yellow) in Frederick and Hagerstown.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
 
 Frederick's job cluster is also quite close to the city's center of jobs, though it is somewhat closer to both Baltimore and DC.  Hagerstown, on the other hand, has a very large southwestern shift of the center of its worker cluster, something for which I have no explanation.
