@@ -20,12 +20,12 @@ Census combined statistical areas are defined as collections of smaller "metropo
 
 Most combined statistical areas also consist of a single primary metropolitan statistical area, and several smaller ones with commuting links, particularly between outlying counties.  The Washington-Baltimore-Arlington CSA is unusual in containing two fairly-equally-sized metropolitan statistical areas, Washington (6 million residents) and Baltimore (3 million residents).  Alongside these, it contains six much smaller areas, typically consisting of only one or two counties, on its western fringe and the Delmarva Penninsula.
 
-![Jobs in whole CSA](maps/density_map_CSA.png)
+![Jobs in whole CSA](Maps/density_map_CSA.png)
 Job density in the Washington-Baltimore-Arlington Combined Statistical Area.  Some outlying portions of the CSA are cut off.
 
 A look at the job density in the CSA as a whole shows that while there are some suburban-density job clusters on the outer reaches of the CSA, most of the jobs appear to be concentrated within the Baltimore and Washington Beltways, and in an arc to the west of Washington.
 
-![Jobs in Core Cities](maps/density_map_CoreCities.png)
+![Jobs in Core Cities](Maps/density_map_CoreCities.png)
 Job density in the core portions of the Washington-Baltimore-Arlington Combined Statistical Area.  Frederick is to the upper left, Baltimore to the upper right, and the sprawling Washington region is in the lower left and center.
 
 A closer look shows that Baltimore and Washington are distinct from the smaller cities in the region in that they have significant and often quite dense suburban job closters.  In Baltimore's case, these are mostly within or just adjacent to its Beltway, although there are a number along MD-100 and MD-32, which serve as partial outer beltways for Baltimore on its southern end.
@@ -36,7 +36,7 @@ In Washington's case, the areas of high job density—many of them at levels of 
 
 Although Baltimore's employment distribution is rather more compact than DC's, there are at least three easily-noticable job clusters outside of the city proper that are dense enough for potential transit service: Towson, at twelve-o'clock just inside the Beltway, Reisterstown Plaza along the Metro Subway line inside the Beltway at ten-o'clock, and White Marsh, just outside the Beltway and south of I-95 at two-o'clock.  However, of these, only Reisterstown Plaza is served by rail transit.
 
-![Jobs in Baltimore](maps/density_map_Baltimore.png)
+![Jobs in Baltimore](Maps/density_map_Baltimore.png)
 Job Density in Baltimore and its inner suburbs.
 
 Other than these four main clusters, jobs in the Baltimore area seem to be mostly located along freeways—there are notably many commercial areas apparently located just inside and outside the Beltway—often with surprisingly large gaps of empty or entirely-residential land in between.
@@ -45,7 +45,7 @@ Other than these four main clusters, jobs in the Baltimore area seem to be mostl
 
 The same pattern of suburban jobs primarily along freeways is seen in Washington as well, although there many jobs also seem to be located along transit lines.  While Washington has many more suburban job closters than Baltimore, it is notable that those in Arlington County, VA (the Ballston-Rosslyn Corridor and south Arlington's Crystal City and Pentagon City) and Montgomery County, Maryland (downtown Rockville, White Flint, Bethesda, Forest Glen, and Silver Spring) seem to be well-located along transit lines, while those in other suburbs often are not.
 
-![Jobs in Washington](maps/density_map_DC_small.png)
+![Jobs in Washington](Maps/density_map_DC_small.png)
 
 Also notable in Washington is the region's strong tendency for jobs not located in downtown to be located in the western suburbs.  Many more clusters of high-density jobs are seen in the western portion of Montgomery County and in Virginia—especially if you consider that this map cuts off the westernmost arc of jobs seen on the regional map—while relatively few are located east of downtown.
 
@@ -55,7 +55,7 @@ In comparison, Baltimore had less of a pronounced asymmetry in suburban job loca
 
 Along with the two major metropolitan areas of Washington and Baltimore, I mapped the job density in the vicinity of several smaller cities in the CSA.  Of these, Annapolis has the most jobs, in part because it is the state capital and many (though not all) state agencies are based there.
 
-![Jobs in Annapolis](maps/density_map_Annapolis.png)
+![Jobs in Annapolis](Maps/density_map_Annapolis.png)
 Job density in Annapolis, at the lower right of the map.  (Baltimore's southern suburbs are at the top of the map, and DC's eastern suburbs are at the left of the map.)
 
 While Annapolis is a distinct city in its own right, and even has what appear to be a few outlying commercial areas near it in places such as Arnold, it is clearly relatively close to both Baltimore and Washington suburbs.  It actually appears to have two separate job clusters: a denser one in the old historic downtown to the east end of the city, and a less dense but larger one centered along US-50 west of the city proper.  However, in the analysis that follows, I will treat these together as a single cluster.
@@ -64,7 +64,7 @@ Annapolis has relatively limited bus transit and no fast, frequent transit conne
 
 Like Annapolis, Frederick and Hagerstown are small cities in Maryland founded before the American Revolution.  However, located in the foothills of the Allegheny Mountains, they are more isolated from the large population centers in Baltimore and Annapolis, and they lack the additional jobs associated with being a state capital.
 
-![Jobs in Frederick and Hagerstown](maps/density_map_Hagerstown-Frederick.png)
+![Jobs in Frederick and Hagerstown](Maps/density_map_Hagerstown-Frederick.png)
 Job density in Hagerstown (upper left) and Frederick (lower right).
 
 Both cities have smaller dense commercial cores: only their small historic downtowns have job density high enough to allow car-dependence to break down.  However, they do have significantly-sized contiguous areas of lower-density suburban jobs.
