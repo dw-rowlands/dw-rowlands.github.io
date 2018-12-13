@@ -582,7 +582,7 @@ left join crosswalk_csa as xwalk_h
 left join crosswalk_csa as xwalk_w
 	on xwalk_w.tabblk2010 = od.w_geocode
 ```
-The resulting dataset was still huge—it was arranged by tabulation blocks, not block groups, and didn't identify job clusters at all.  The next step, sorting out workers based on what job cluster they worked in, involved separate SQL queries for each cluster.  The query for downtown Baltimore is presented below; [a complete list can be found here](Appendix_JobClusterQueries.md).
+The resulting dataset was still huge—it was arranged by tabulation blocks, not block groups, and didn't identify job clusters at all.  The next step, sorting out workers based on what job cluster they worked in, involved separate SQL queries for each cluster.  The query for downtown Baltimore is presented below; [a complete list can be found here](Appendix_JobClusterQueries.html).
 
 ```sql
 select
