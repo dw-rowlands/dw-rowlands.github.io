@@ -1,7 +1,6 @@
 ---
 title: Appendix: SQL Queries for Job Clusters
----
-
+--- 
 
 ### Baltimore City
 
