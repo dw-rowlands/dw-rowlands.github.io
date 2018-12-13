@@ -2,6 +2,11 @@
 title: Mapping Job Density and Commutes
 ---
 
+![](Maps/dotmaps_DC-Baltimore.png)
+One dot per resident who works in either downtown DC (yellow dots) or downtown Baltimore (blue dots), randomly located within block groups.  The map is based on 2015 LEHD LODES data.  The background map is Stamen Toner.
+
+For my final project in GES 687, I worked on a dataset I'd wanted to make use of for years, but hadn't had the skills to work with until I took the class: the Census's Longitudinal Employer-Housing Dynamics program's [LEHD Origin-Destination Employment Statistics (LODES)](https://lehd.ces.census.gov/data/), which provides data on the workplaces and residences of most workers employed in the US.  I focused on analyzing data from the [Washington-Baltimore-Arlington Combined Statistical Area (CSA)](https://en.wikipedia.org/wiki/Baltimore%E2%80%93Washington_metropolitan_area), one of the country's largest, with nearly ten million residents and two major component metropolitan areas.
+
 ## 1 - Mapping Job Density
 
 The most common way to map the density of urban areas is to map their population density.  This is easily done, since essentially all national governments perform regular censuses that record the number of residents within relatively small tracts covering the whole country.
@@ -569,11 +574,7 @@ Frederick's job cluster is also quite close to the city's center of jobs, though
 
 That all three of these shifts are to the southeast seems likely to be a coincidence, given that Annapolis is southeast of the Baltimore-Washington corridor while Frederick and Hagerstown are northwest of it.  However, more small-city job clusters would need to be analyzed to really be sure.
 
-### 3.5 - Median Commute Distance for Job Clusters
-
-**INCOMPLETE: I will calculate the median commute distance for each job cluster and see if any interesting patterns are evident.**
-
-### 3.6 - Data Analysis
+### 3.5 - Data Analysis
 
 Converting the [raw origin-destination data from LODES](https://lehd.ces.census.gov/data/) to a usable form required several SQL queries.  First, since LODES data is presented by Census tabulation blocks, with a crosswalk file for correlation with block groups and other geographic units, I ran an SQL query to pull the data that I needed arranged by block group.
 
