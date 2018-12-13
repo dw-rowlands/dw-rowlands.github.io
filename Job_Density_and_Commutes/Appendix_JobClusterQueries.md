@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Appendix: SQL Queries for Job Clusters
 --- 
 
